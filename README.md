@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps:
 
 - Change the current working directory to the location where you want the cloned directory to be made. Leave it as it is if the current location is where you want the project to be. 
 
-- Type `git clone` , and then paste the URL you copied in Step 3.<br>
+- Type `git clone`, and then paste the URL you copied in Step 3.<br>
 
   `$ git clone https://github.com/Kevinrosmusic/backend_todolist.git` <em>Press Enter key</em><br>
 
@@ -35,13 +35,13 @@ To get a local copy up and running follow these simple example steps:
 
 - After you get the project aiming to the desired directory, open index.html file.
 
-- una vez clonado el repositorio deben usar el comando npm install para instalar las dependencias
+- Once repository is cloned, you must use the npm install command to install the dependencies
 
-- posterior deben crear una base de datos en un manejador MySql he importar el el archivo todolist.sql
+- Create a database in a MySql manager and import todolist.sql file
 
-- modificar las variables de entorno con las credencioanles de la base de datos
+- Modify environment variables with database credentials
 
-- arrancar proyecto usando npm run dev
+- To start the project, type `npm run dev` command on the terminal
 
 ## Authors
 
