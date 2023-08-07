@@ -1,6 +1,6 @@
 # :star: Backend Nodejs To Do List
 
-> This is the same To Do List project but was now built on pure HTML, CSS, and JavaScript. React 18, Redux Toolkits, 
+> This is the same To Do List project but was now built on pure HTML, CSS, and JavaScript. React 18, Redux Toolkits.
 
 ## This project was built with:
  
