@@ -1,20 +1,21 @@
-# :star: backend_todolist# IcelandTest v-2
+# :star: Backend Nodejs To Do List
 
-> This is the same icelandTest project but was now built on pure HTML, CSS, and JavaScript. 100% responsive
+> This is the same To Do List project but was now built on pure HTML, CSS, and JavaScript. React 18, Redux Toolkits, 
 
 ## This project was built with:
-
-- <a href="https://www.w3schools.com/mongodb/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="redux" width="40" height="40" /> </a>
+ 
+- <a href="https://www.w3schools.com/mysql/" target="_blank"> <img src="https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg" alt="redux" width="40" height="40" /> </a>
 
 - <a href="https://www.w3schools.com/nodejs/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="redux" width="40" height="40" /> </a>
 
 - <a href="https://www.w3schools.com/express/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="redux" width="40" height="40" /> </a>
-          
+
+         
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
 
-- On the project, GitHub page, navigate to the  [main page of the repository](https://github.com/Kevinrosmusic/IcelandTest-2.git)
+- On the project, GitHub page, navigate to the  [main page of the repository](https://github.com/Kevinrosmusic/backend_todolist.git)
 
 - Click on a button named `code`
 
@@ -26,13 +27,21 @@ To get a local copy up and running follow these simple example steps:
 
 - Type `git clone` , and then paste the URL you copied in Step 3.<br>
 
-  `$ git clone https://github.com/Kevinrosmusic/IcelandTest.git-2` <em>Press Enter key</em><br>
+  `$ git clone https://github.com/Kevinrosmusic/backend_todolist.git` <em>Press Enter key</em><br>
 
 - Your local copy will be created.
 
 - Please note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
-- After you get the project aiming to the desired directory, open index.html file. 
+- After you get the project aiming to the desired directory, open index.html file.
+
+- una vez clonado el repositorio deben usar el comando npm install para instalar las dependencias
+
+- posterior deben crear una base de datos en un manejador MySql he importar el el archivo todolist.sql
+
+- modificar las variables de entorno con las credencioanles de la base de datos
+
+- arrancar proyecto usando npm run dev
 
 ## Authors
 
