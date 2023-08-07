@@ -1,17 +1,15 @@
 # :star: backend_todolist# IcelandTest v-2
 
-> This is the same icelandTest project but now it was built on pure HTML, CSS and JavaScript. 100% responsive
+> This is the same icelandTest project but was now built on pure HTML, CSS, and JavaScript. 100% responsive
 
 ## This project was built with:
 
- - HTML
+- <a href="https://www.w3schools.com/mongodb/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="redux" width="40" height="40" /> </a>
 
- - CSS
+- <a href="https://www.w3schools.com/nodejs/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="redux" width="40" height="40" /> </a>
 
- - JavaScript
-
- - Animated.css
-
+- <a href="https://www.w3schools.com/express/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="redux" width="40" height="40" /> </a>
+          
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
@@ -20,11 +18,11 @@ To get a local copy up and running follow these simple example steps:
 
 - Click on a button named `code`
 
-- Copy the project URL as displayed on HTTPS tab
+- Copy the project URL as displayed on the HTTPS tab
 
 - If you're running Windows Operating System, open your command prompt. On Linux, Open your terminal
 
-- Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be. 
+- Change the current working directory to the location where you want the cloned directory to be made. Leave it as it is if the current location is where you want the project to be. 
 
 - Type `git clone` , and then paste the URL you copied in Step 3.<br>
 
