@@ -65,7 +65,7 @@ const setLogin = async (req, res = response) => {
             const validPassword = bcrypt.compareSync(password, user.password);
 
             if (!validPassword) {
-                res.status(200).json({
+                res.status(500).json({
                     ok: true,
                     msg: "Credenciales incorrectas",
                 });
@@ -80,7 +80,7 @@ const setLogin = async (req, res = response) => {
                 });
             }
         } else {
-            res.status(200).json({
+            res.status(500).json({
                 ok: true,
                 msg: "Usuario no existe",
             });
