@@ -20,7 +20,7 @@ const setRegister = async (req, res = response) => {
             console.log("encontrado");
             return res.status(400).json({
                 ok: false,
-                msg: "El correo ya está registrado",
+                msg: "The mail is already registered",
             });
         } else {
             console.log("entre");
@@ -39,14 +39,14 @@ const setRegister = async (req, res = response) => {
 
             res.status(200).json({
                 ok: true,
-                msg: "Usuario creado exitosamente",
+                msg: "User created successfully",
             });
         }
     } catch (error) {
         console.log(error);
         res.status(500).json({
             ok: false,
-            msg: "Ha ocurrido un error inesperado",
+            msg: "An unexpected error has occurred",
         });
     }
 };
@@ -67,7 +67,7 @@ const setLogin = async (req, res = response) => {
             if (!validPassword) {
                 res.status(500).json({
                     ok: true,
-                    msg: "Credenciales incorrectas",
+                    msg: "Incorrect credentials",
                 });
             } else {
                 const token = await generateJWT(user.id, user.name);
@@ -82,14 +82,14 @@ const setLogin = async (req, res = response) => {
         } else {
             res.status(500).json({
                 ok: true,
-                msg: "Usuario no existe",
+                msg: "User does not exist",
             });
         }
     } catch (error) {
         console.log(error);
         res.status(500).json({
             ok: false,
-            msg: "Ha ocurrido un error inesperado",
+            msg: "An unexpected error has occurred",
         });
     }
 };
@@ -108,13 +108,13 @@ const createTodoList = async (req, res = response) => {
 
         res.status(200).json({
             ok: true,
-            msg: "Lista creada exitosamente",
+            msg: "To Do List created successfully",
         });
     } catch (error) {
         console.log(error);
         res.status(500).json({
             ok: false,
-            msg: "Ha ocurrido un error inesperado",
+            msg: "An unexpected error has occurred",
         });
     }
 };

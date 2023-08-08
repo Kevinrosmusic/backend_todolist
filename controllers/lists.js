@@ -24,7 +24,7 @@ const getList = async (req, res = response) => {
         console.log(error);
         res.status(500).json({
             ok: false,
-            msg: "Error inesperado... revisar logs",
+            msg: "An unexpected error has occurred",
         });
     }
 };
@@ -55,7 +55,7 @@ const getListById = async (req, res = response) => {
         console.log(error);
         res.status(500).json({
             ok: false,
-            msg: "Error inesperado... revisar logs",
+            msg: "An unexpected error has occurred",
         });
     }
 };
@@ -75,13 +75,13 @@ const addTask = async (req, res = response) => {
 
         res.status(200).json({
             ok: true,
-            msg: "Tarea creada exitosamente",
+            msg: "Task created successfully",
         });
     } catch (error) {
         console.log(error);
         res.status(500).json({
             ok: false,
-            msg: "Error inesperado... revisar logs",
+            msg: "An unexpected error has occurred",
         });
     }
 };
@@ -101,13 +101,13 @@ const updateTask = async (req, res = response) => {
 
         res.status(200).json({
             ok: true,
-            msg: "Tarea actualizada exitosamente",
+            msg: "Task updated successfully",
         });
     } catch (error) {
         console.log(error);
         res.status(500).json({
             ok: false,
-            msg: "Error inesperado... revisar logs",
+            msg: "An unexpected error has occurred",
         });
     }
 };
@@ -135,13 +135,13 @@ const deleteList = async (req, res = response) => {
         await list.destroy();
         res.status(200).json({
             ok: true,
-            msg: "Lista eliminada exitosamente",
+            msg: "To Do List successfully removed",
         });
     } catch (error) {
         console.log(error);
         res.status(500).json({
             ok: false,
-            msg: "Error inesperado... revisar logs",
+            msg: "An unexpected error has occurred",
         });
     }
 };
